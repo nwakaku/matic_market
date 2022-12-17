@@ -1,0 +1,7 @@
+type NFT @entity {
+  id: ID! # token ID
+  from: Bytes!
+  to: Bytes!
+  tokenURI: String!
+  price: BigInt!
+}
